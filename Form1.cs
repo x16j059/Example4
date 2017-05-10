@@ -16,5 +16,15 @@ namespace Example4
         {
             InitializeComponent();
         }
+
+        private void btnCaLc_Click(object sender, EventArgs e)
+        {
+            int iValue;   //変数 iValueno宣言
+
+            iValue = int.Parse(tbxNum.Text);
+            lbLAns.Text = String.Format("{0}", iValue * 10);
+        }
+
     }
 }
+//ALignRight
